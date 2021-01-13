@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "280126132969",
+    "project_id": "beastmode-f7a22",
+    "storage_bucket": "beastmode-f7a22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280126132969:android:63c237cbecdbd62acfd678",
+        "android_client_info": {
+          "package_name": "com.example.beastmode_register_signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280126132969-en3tvooq6jkoch8pf5cbl2gqempbmmph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDszL54tOpx_wXaTeC4BltTSnFw1jYznE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280126132969-en3tvooq6jkoch8pf5cbl2gqempbmmph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280126132969:android:28425c3747acdd79cfd678",
+        "android_client_info": {
+          "package_name": "com.example.updatereps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280126132969-en3tvooq6jkoch8pf5cbl2gqempbmmph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDszL54tOpx_wXaTeC4BltTSnFw1jYznE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280126132969-en3tvooq6jkoch8pf5cbl2gqempbmmph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

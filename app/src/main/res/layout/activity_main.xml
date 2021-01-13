@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginLeft="325dp"
+            android:text="logout"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="411dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:hint="Your Email"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="reset password" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="WORKOUT DONE!"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:id="@+id/ll_setting_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cbx_workout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Jumping Jacks" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Push-Ups" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Incline Push-Ups" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Wide Arm Push-Ups" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Cobra Stretch" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Knee Push-Ups" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Squats" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Backward Lunge" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Donkey Kicks" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Side-Lying Leg" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Quad Stretch" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout12"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Knees to Chest" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout13"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Triceps Kickbacks" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout14"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Punches" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout15"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Jumping Jacks()" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout16"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Diamond Push-Ups" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout17"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Plank" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout18"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Arm Scissors" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout19"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Mountain Climber" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout20"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Plank()" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout21"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Leg Raises" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout22"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Heel Raises" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout23"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Russian Twist" />
+
+                <CheckBox
+                    android:id="@+id/cbx_workout24"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Cobra Stretch" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
